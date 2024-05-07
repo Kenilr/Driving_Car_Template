@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container1 {
+  height: 562px;
+  width: 100%;
+}
+
+.container1 h1{
+  color: rgb(103, 96, 94);
+  font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  position: relative;
+  top: 50px;  
+  margin-left: 40px;
+}
+
+.container2 {
+  height: 400px;
+  background-color: rgb(229, 229, 229);
+}
+
+.redbox {
+  width: 566px;
+  height: 350px;
+  background-color: rgb(232, 26, 35);
+  margin-left: 700px;
+  margin-top: 50px;
+}
+
+.content-img {
+  width: 1075px;
+  height: 717px;
+  background-image: url("./Driving_car.jpg");
+  position: relative;
+  bottom: 290px;
+  left: 120px;
+}
+
+.box2 {
+  width: 438px;
+  height: 348px;
+  padding: 20px 40px 20px 40px;
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 16px;
+  line-height: 25.6px;
+  position: relative;
+  left: 200px;
+  bottom: 18px;
+}
+
+.box2 h2 {
+  width: 500px;
+  height: 60px;
+  color: rgb(17, 17, 17);
+  display: block;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 55px;
+  font-weight: 700px;
+  line-height: 60.5px;
+  text-size-adjust: 100%;
+  position: relative;
+  bottom: 10px;
+  text-align: left;
+}
+
+.box2 p{
+    width: 438px;
+    height: 108px;
+    color: rgb(17, 17, 17);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: left;
+    position: relative;
+    top: 60px;
+}
+
+#freepik {
+    color: rgb(128, 128, 128);
+    font-family: "Open Sans", sans-serif;
+    margin-top: 5px;
+}
+
+button {
+    width: 220px;
+    height: 50px;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 1px;
+    padding: 20px 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(51,51, 51);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.footer p{
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+    font-family:"Open Sans", sans-serif;
+    
+}
+.footer a{
+    color: rgb(173, 204, 233);
+    font-size: 14px;
+    font-family:"Open Sans", sans-serif;
+}
+.footer a:hover{
+    color: black;
+}
+
+
+
+
